@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# Web-Scraper
 
-You can use the [editor on GitHub](https://github.com/Humanfailure/Web-Scraper/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a webscraper written in python, the goal is to check a website once a minute and message the users phone using twilio if the website changes.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+To run, you need a file named `variables.py`, it must contain this code:
+```python
+url = "https://humanfailure.github.io/Web-Scraper/"
+account_sid = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+auth_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+twilio_phone_number = '+xxxxxxxxxxx'
+my_phone_number = '+1-xxx-xxx-xxxx'
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Humanfailure/Web-Scraper/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
