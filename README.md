@@ -10,3 +10,4 @@ auth_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 twilio_phone_number = '+xxxxxxxxxxx'
 my_phone_number = '+1-xxx-xxx-xxxx'
 ```
+The project does mostly what it is designed to do, it did say when the header changed in the terminal, though it didn't work with Twilio.
